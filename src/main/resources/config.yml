@@ -1,0 +1,64 @@
+logging:
+  onlinePlayers: true
+  console: true
+  discord:
+    enable: false
+    webhook:
+      token: "Your webhook token"
+      id: "Your webhook id"
+  level:
+    off: [ ]
+    info: [ "CHANGE_GAME_MODE" ]
+    warn: [ "BREAK_BANNED_BLOCK", "PLACE_BANNED_BLOCK", "DROP_BANNED_ITEM", "USE_BANNED_COMMAND" ]
+
+# Block Protection
+# ブロックの配置及び破壊を禁止することができます。
+blockProtection:
+  enable: true
+  # 以下の設定を有効にすると使用しようとしたブロックをインベントリから削除することもできます。
+  removeFromInventory: true
+  blocks:
+    - BEDROCK
+    - COMMAND_BLOCK
+    - COMMAND_BLOCK_MINECART
+    - CHAIN_COMMAND_BLOCK
+    - REPEATING_COMMAND_BLOCK
+    - BARRIER
+
+# Command Protection
+# 設定したコマンドの実行を禁止することができます。
+# WARNING: コンソールからは使用可能です。
+commandProtection:
+  enable: true
+  commands:
+    - give
+    - time
+    - advancement
+    - attribute
+    - bossbar
+    - defaultgamemode
+    - difficulty
+    - effect
+    - enchant
+    - execute
+    - experience
+    - xp
+    - fill
+    - function
+    - gamerule
+    - item
+    - kill
+    - locate
+    - loot
+    - particle
+    - place
+    - recipe
+    - save-off
+    - save-on
+    - schedule
+    - setblock
+    - setidletimeout
+    - setworldspawn
+    - spawnpoint
+    - summon
+    - weather

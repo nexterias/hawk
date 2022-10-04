@@ -1,0 +1,8 @@
+name: Hawk
+main: dev.inkohx.hawk.Hawk
+api-version: 1.19
+version: 1.0.0
+prefix: "NEXTERIAS/Hawk"
+website: https://github.com/NEXTERIAS/Hawk
+authors:
+  - InkoHX
