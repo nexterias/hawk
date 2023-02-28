@@ -20,7 +20,7 @@ repositories {
     }
 }
 
-val ktorVersion = "2.2.2"
+val ktorVersion = "2.2.4"
 
 dependencies {
     implementation("io.ktor:ktor-client-core:$ktorVersion")
